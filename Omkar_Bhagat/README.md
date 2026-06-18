@@ -1,1 +1,0 @@
-# Omkar Bhagat Project Submissions
