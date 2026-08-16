@@ -1,0 +1,22 @@
+# Build outputs - too large for git, regeneratable from source
+buildroot-*/output/
+buildroot-*/dl/
+linux-*/     
+u-boot-*/
+*.o
+*.img
+*.bin
+*.dtb
+*.qcow2
+
+# Exclude full third-party source trees - we only track our own configs/changes
+buildroot/
+linux-*/
+u-boot-*/
+
+# Debug artifacts from troubleshooting
+qemu-boot.log
+qemu-debug.log
+
+# Boot output files (regeneratable from buildroot output/images)
+boot-files/
